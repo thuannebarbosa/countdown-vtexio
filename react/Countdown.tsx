@@ -73,7 +73,8 @@ Countdown.schema = {
     targetDate: {
       title: 'Final Date',
       description: 'Final date used in the countdown',
-      type: 'string',
+      type: "string",
+      format: "date-time",
       default: null,
     },
     isON: {
